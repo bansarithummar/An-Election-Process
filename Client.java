@@ -2,7 +2,7 @@ import java.rmi.Naming;
 import java.util.Scanner;
 import java.util.*;
 
-public class Client {
+public class Client { 
 
 	private Client() {
 	}
