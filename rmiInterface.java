@@ -16,5 +16,4 @@ public interface rmiInterface extends Remote {
 	HashMap<String, Integer> tally() throws RemoteException;
 
 	String Winner() throws RemoteException;
-// boolean ViDgenerator(int x) throws RemoteException;
 }
