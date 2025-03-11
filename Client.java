@@ -10,7 +10,7 @@ public class Client {
 	public static void main(String[] args) {
 		int flag = 0;
 
-		Scanner s = new Scanner(System.in);// reading from the system
+		Scanner s = new Scanner(System.in);
 		try {
 			rmiInterface stub = (rmiInterface) Naming.lookup("rmi://localhost/Election");
 
