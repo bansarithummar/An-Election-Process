@@ -7,8 +7,7 @@ import java.util.*;
 import java.util.Scanner;
 
 public class Server extends UnicastRemoteObject implements rmiInterface {
-	/**
-	 * 
+	/* 
 	 */
 	private static final long serialVersionUID = 1L;
 
@@ -82,7 +81,7 @@ public class Server extends UnicastRemoteObject implements rmiInterface {
 		return "Your vote has been successfully submited!!!";
 	}
 
-	public HashMap<String, Integer> tally() throws RemoteException { // return the candidate list with Votes
+	public HashMap<String, Integer> tally() throws RemoteException { 
 		return votecount;
 	}
 
